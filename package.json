@@ -1,0 +1,27 @@
+{
+  "name": "movy-cli",
+  "version": "1.0.0",
+  "description": "Terminal movie and TV streamer/downloader with parallel HLS downloads and multi-subtitle support",
+  "type": "module",
+  "main": "cli.js",
+  "bin": {
+    "movy": "cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "cli.js",
+    "README.md",
+    "LICENSE",
+    ".env.example"
+  ],
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "keywords": ["cli", "movies", "tv", "hls", "mpv", "iina", "ffmpeg"],
+  "license": "MIT"
+}
